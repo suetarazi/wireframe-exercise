@@ -1,0 +1,79 @@
+/* style.css */
+
+body{
+    background-color: gray;
+    margin: 0;
+}
+
+nav{
+    height: 15%;
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+}
+
+ul{
+    width: 100%;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+
+}
+
+li{
+    float: left;
+    text-align: center;
+    font-size: 12pt;
+    margin: 30px;
+    width: calc(25%-60px);
+}
+
+header{
+    background-color: lightslategray;
+    height: 120px;
+    width: 100%;
+
+}
+
+main{
+    padding-top: 30px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+#hero{
+    width: 960px;
+    height: 450px;
+    margin: 30px;
+    margin-bottom: 0;
+}
+
+div{
+    width: 100%
+}
+
+.subBanner{
+    width: 300px;
+    height: 375px;
+    margin: 15px;
+
+}
+
+#featuredSectionBanner{
+    width: 50%;
+    margin: 30px;
+}
+
+.featuredSectionContent{
+    width: 50%;
+    margin: 30px;
+
+}
+
+#latinText{
+    float: right;
+    width: 50%;
+    margin: 30px;
+    overflow: scroll;
+}
