@@ -1,13 +1,13 @@
 /* style.css */
 
 body{
-    background-color: gray;
+    background-color: gray; 
     margin: 0;
 }
 
 nav{
     height: 15%;
-    width: 50%;
+    width: 80%;
     margin: auto;
     padding: 30px;
 }
@@ -38,7 +38,8 @@ header{
 
 main{
     padding-top: 30px;
-    max-width: 90%;
+    width: 960px; 
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -54,26 +55,32 @@ div{
 }
 
 .subBanner{
-    width: 300px;
+    width: 280px;
     height: 375px;
     margin: 15px;
 
 }
 
 #featuredSectionBanner{
-    width: 50%;
+    width: 42%;
     margin: 30px;
+    float: left;
 }
 
 .featuredSectionContent{
-    width: 50%;
+    width: 45%;
     margin: 30px;
-
+    float: right;
 }
 
 #latinText{
     float: right;
-    width: 50%;
+    width: 100%;
     margin: 30px;
     overflow: scroll;
+}
+
+#footer{
+    height: 500px; 
+    width: 100%
 }
